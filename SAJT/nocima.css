@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #0c170f;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #0c170f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav, .sub-nav {
+    background-color: #16331f;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a, .sub-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sub-nav {
+    margin-top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ceedd8;
+}
+
+.sub-nav {
+    background-color: #16331f;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sub-nav a:hover {
+    color: #ceedd8;
+}
+
+.sub-nav .nocima-link {
+    color: #0c170f; /* Change this to your desired text color */
+}
+
+p {
+    font-size: 18px; /* Adjust font size */
+    line-height: 4; /* Adjust line height */
+    color: white; /* Set text color */
+    margin-bottom: 20px; /* Adjust bottom margin */
+    text-align: center
+}
+
+section {
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+
+footer {
+    background-color: #0c170f;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+

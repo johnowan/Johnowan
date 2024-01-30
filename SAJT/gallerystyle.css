@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+body {
+    font-family: roboto mono, monospace;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #0c170f;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    background-color: #0c170f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto Mono', Monospace; /* Add this line */
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #16331f;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px
+
+}
+
+/* Style for the main content area */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style for the welcome section */
+.welcome {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+/* Style for the main heading */
+.welcome h2 {
+    color: #333;
+}
+
+/* Style for the main paragraph */
+.welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Style for the featured content */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Style for each featured item */
+.featured-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.featured-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .featured-item {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ceedd8;
+}
+
+.sub-nav {
+    background-color: #16331f;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sub-nav a:hover {
+    color: #ceedd8;
+}
+
+footer {
+    background-color: #0c170f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
